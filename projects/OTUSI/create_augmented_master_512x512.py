@@ -39,8 +39,6 @@ import traceback
 import cv2
 from PIL import Image, ImageOps, ImageEnhance
 
-from ImageWarpTrapezoider import ImageWarpTrapezoider
-
 class OvarianTumorImageAugmentor:
   def __init__(self, W=512, H=512):
     self.W = W
