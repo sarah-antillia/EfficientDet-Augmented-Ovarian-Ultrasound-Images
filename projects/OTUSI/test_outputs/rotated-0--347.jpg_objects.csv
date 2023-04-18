@@ -1,0 +1,3 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+rotated-0--347.jpg,2,0.8,241,170,331,255
+rotated-0--347.jpg,2,0.52,141,155,337,260
