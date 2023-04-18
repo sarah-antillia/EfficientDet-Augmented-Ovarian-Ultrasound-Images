@@ -11,12 +11,6 @@ https://github.com/cv516buaa/mmotu_ds2net
 </pre>
 Citation:<br>
 <pre>
-Al-Dhabyani W, Gomaa M, Khaled H, Fahmy A. 
-Dataset of breast ultrasound images. Data in Brief. 
-2020 Feb;28:104863. 
-DOI: 10.1016/j.dib.2019.104863.
-</pre>
-<pre>
 @article{DBLP:journals/corr/abs-2207-06799,
   author    = {Qi Zhao and
                Shuchang Lyu and
@@ -88,7 +82,7 @@ Please clone EfficientDet-Augmented-Ovarian-UltraSound-Images.git in the working
 <pre>
 >git clone https://github.com/sarah-antillia/EfficientDet-Augmented-Ovarian-UltraSound-Images.git<br>
 </pre>
-You can see the following folder <b>projects</b> in EfficientDet-Breast-Cancer of the working folder.<br>
+You can see the following folder <b>projects</b> in <b>EfficientDet-Augmented-Ovarian-UltraSound-Images</b> of the working folder.<br>
 
 <pre>
 EfficientDet-Augmented-Ovarian-UltraSound-Images
@@ -226,7 +220,7 @@ https://storage.googleapis.com/cloud-tpu-checkpoints/efficientdet/coco2/efficien
 See: https://github.com/google/automl/tree/master/efficientdet<br>
 
 
-<h3>5. Training Breast-Cancer Model by using the pretrained-model</h3>
+<h3>5. Training Ovarian-Tumor Model by using the pretrained-model</h3>
 
 Please change your current directory to <b>./projects/OTUSI</b>,
 and run the following bat file to train Ovarian-Tumor EfficientDet Model by using the train and valid tfrecords.
@@ -400,10 +394,10 @@ python ../../SavedModelCreator.py ^
 <br>
 <br>
 <h3>
-7. Inference Breast-Cancer by using the saved_model
+7. Inference Ovarian Tumor by using the saved_model
 </h3>
 <h3>7.1 Inference scripts</h3>
- Please run the following bat file to infer Breast Cancer mages of test dataset:
+ Please run the following bat file to infer Ovarian Tumor of <b>test</b> dataset:
 <pre>
 3_inference.bat
 </pre>
@@ -531,12 +525,6 @@ References
 https://github.com/cv516buaa/mmotu_ds2net
 </pre>
 Citation:<br>
-<pre>
-Al-Dhabyani W, Gomaa M, Khaled H, Fahmy A. 
-Dataset of breast ultrasound images. Data in Brief. 
-2020 Feb;28:104863. 
-DOI: 10.1016/j.dib.2019.104863.
-</pre>
 <pre>
 @article{DBLP:journals/corr/abs-2207-06799,
   author    = {Qi Zhao and
