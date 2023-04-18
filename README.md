@@ -123,7 +123,7 @@ Please run the following command to install python packages for this project.<br
 "High grade serous"     = 7
 </pre>
 
- We have created OTUSI <b>YOLO</b> annotation dataset from the original <b>OTU_2d</b> dataset by using the following 
+ We have created OTUSI(Ovarian-Tumor-UltraSound-Images) <b>YOLO</b> annotation dataset from the original <b>OTU_2d</b> dataset by using the following 
  two Python scripts.<br>
 <a href="./projects/OTUSI/create_augmented_master_512x512.py">create_augmented_master_512x512.py</a><br>
 <a href="./projects/OTUSI/create_yolo_annotation_from_augmented_master.py">create_yolo_annotation_from_augmented_master.py</a><br>
