@@ -39,6 +39,7 @@ import traceback
 import cv2
 from PIL import Image, ImageOps, ImageEnhance
 
+
 class OvarianTumorImageAugmentor:
   def __init__(self, W=512, H=512):
     self.W = W
@@ -213,12 +214,12 @@ class OvarianTumorImageAugmentor:
       center = (self.W/2, self.H/2)
       rotate_matrix = cv2.getRotationMatrix2D(center=center, angle=angle, scale=1)
 
-      # 3 Rotate the resize_mask_img by angle
+      # 1 Rotate the resize_img by angle
       rotated_resized_image    = cv2.warpAffine(src=resized_img, M=rotate_matrix, dsize=(self.W, self.H))
       rotated_resized_filename = "rotated-" + str(angle) +  DELIMITER + nameonly + "." + image_format
       rotated_resized_filepath = os.path.join(output_dir, rotated_resized_filename)
 
-      # 5 Write the rotated_resized_mask_image as a jpg file.
+      # 2 Write the rotated_resized_img as a jpg file.
       cv2.imwrite(rotated_resized_filepath, rotated_resized_image)
       print("Saved {} ".format(rotated_resized_filepath))
 
@@ -227,13 +228,13 @@ class OvarianTumorImageAugmentor:
     
     FLIPCODES = [0, 1]
     for flipcode in FLIPCODES:
-      # 7 Flip the resized_mask_img by flipcode
+      # 3 Flip the resized_mask_img by flipcode
       flipped_resized_img = cv2.flip(resized_img, flipcode)
       # Save flipped mask_filename is jpg
       save_flipped_img_filename = "flipped-" + str(flipcode) +  DELIMITER + nameonly + "." + image_format
       flipped_resized_img_filepath = os.path.join(output_dir, save_flipped_img_filename )
 
-      # 8 Write the flipped_resized_mask_img as a jpg file.
+      # 4 Write the flipped_resized_mask_img as a jpg file.
       cv2.imwrite(flipped_resized_img_filepath, flipped_resized_img)
       print("Saved {} ".format(flipped_resized_img_filepath))
 
