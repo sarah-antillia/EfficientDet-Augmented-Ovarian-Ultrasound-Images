@@ -547,8 +547,13 @@ Citation:<br>
 <b>2. A Multi-Modality Ovarian Tumor Ultrasound Image Dataset for Unsupervised Cross-Domain Semantic Segmentation</b><br>
 Qi Zhao*, Member, IEEE, Shuchang Lyu*, Graduate Student Member, IEEE, Wenpei Bai*, Linghan Cai*,<br>
 Binghao Liu, Meijing Wu, Xiubo Sang, Min Yang, Lijiang Chen, Member, IEEE<br>
-<br>
+
 <pre>
 https://arxiv.org/pdf/2207.06799v3.pdf
 </pre>
 
+<b>3. Ovarian tumor diagnosis using deep convolutional neural networks and a denoising convolutional autoencoder</b><br>
+Yuyeon Jung, Taewan Kim, Mi-Ryung Han, Sejin Kim, Geunyoung Kim, Seungchul Lee & Youn Jin Choi <br>
+<pre>
+https://www.nature.com/articles/s41598-022-20653-2
+</pre>
