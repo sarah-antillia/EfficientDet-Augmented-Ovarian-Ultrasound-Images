@@ -4,7 +4,7 @@ EfficientDet-Augmented-Ovarian-UltraSound-Images (Updated: 2023/04/20)
 This is an experimental project to detect <b>Ovarian-Tumor</b> based on 
 Ovrian Ultrasound Images Dataset (OTUI), by using Google Brain AutoML
 <a href="https://github.com/google/automl/tree/master/efficientdet"> EfficientDet.</a><br>
-The original dataset used here has been take from the followin web site:<br>
+The original dataset used here has been take from the following web site:<br>
 <b>Multi-Modality Ovarian Tumor Ultrasound (MMOTU) image dataset</b><br>
 <pre>
 https://github.com/cv516buaa/mmotu_ds2net
@@ -45,7 +45,7 @@ https://arxiv.org/pdf/2207.06799v3.pdf
 We use Python 3.8.10 to run tensoflow 2.11.1 on Windows11.<br>
 <h3>1.1 Install Microsoft Visual Studio Community</h3>
 Please install <a href="https://visualstudio.microsoft.com/ja/vs/community/">Microsoft Visual Studio Community</a>, 
-which can be ITed to compile source code of 
+which can be used to compile source code of 
 <a href="https://github.com/cocodataset/cocoapi">cocoapi</a> for PythonAPI.<br>
 <h3>1.2 Create a python virtualenv </h3>
 Please run the following command to create a python virtualenv of name <b>py38-efficientdet</b>.
